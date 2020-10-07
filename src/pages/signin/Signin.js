@@ -1,9 +1,9 @@
 import React from 'react';
-import BannerSignIn from '../../banner-signIn/banner-signIn';
-import BannerSignInForm from '../../SignIn-form-banner/SignIn-form-banner';
-import BannerMovieHub from '../../SignIn-movieHub/SignIn-movieHub';
+import BannerSignIn from '../../components/banner-signIn/banner-signIn';
+import BannerSignInForm from '../../components/SignIn-form-banner/SignIn-form-banner';
+import BannerMovieHub from '../../components/SignIn-movieHub/SignIn-movieHub';
 import './signin.css';
-import Nav from '../../nav/nav.component';
+import Nav from '../../components/nav/nav.component';
 
 
 function Signin() {
@@ -23,5 +23,5 @@ function Signin() {
     );
 }
 
-export default Signin
+export default Signin;
   

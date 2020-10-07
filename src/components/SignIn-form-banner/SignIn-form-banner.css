@@ -66,8 +66,11 @@ hr{
     border: 1px solid #fff;
     border-radius: 3px;
 }
+.sign-up-link{
+    color: #000;
+}
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1030px){
     .SignIn-form-banner-Img{
         background-image: url("../../assets/images/banner-img4.jpg");
         width: 100%;
@@ -114,7 +117,7 @@ hr{
         
     }
     form .forgot-password{
-        margin-left: 22%;
+        margin-left: 25%;
     }
     
 }
